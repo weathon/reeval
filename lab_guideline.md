@@ -107,7 +107,7 @@ where $z$ is the naive template (face_embedding @ K), $t(x)$ is the unconverted 
 3. Visualize U-Net generated images from before it converges (undertrained samples).
 
 ## Other Notes
-1. You are encouraged to use subagents to save context for yourself, and you should use gpt-5.6-sol or Claude Opus 5 for your subagents. You HAVE TO let a subagent review the diff after each function. To review the code from different biases, you should start a subagent yourself and also use an external reviewer. For the external reviewer: if you are Claude, let codex review it (codex exec); if you are codex, let Claude review it (claude -p).
+1. You are encouraged to use subagents to save context for yourself, and you should use gpt-5.6-sol or Claude Opus 5 for your subagents. You HAVE TO let a subagent review the diff after each function. To review the code from different biases, you should start a subagent yourself and also use an external reviewer. For the external reviewer: if you are Claude, let codex review it (codex exec); if you are codex, let Claude review it (claude -p). If the other one is not installed, skip for for the whole run, do NOT try to get it to review everytime if you find it is not installed the first time.
 
 2. You are only allowed to use one GPU; however, given the GPU is very powerful, you can run many tasks on that single GPU at a time.
 
